@@ -32,10 +32,10 @@ const Quotegen = () => {
   return (
 
     <div>
-    <h1 className='text-center p-5'>Quote App</h1>
+    <h1 className='text-center p-5' style={{ color:"#5e1c0b", fontSize:"7rem" }}>Quote</h1>
     <Container className="d-flex justify-content-center align-items-center">
 
-      <Card style={{ width: '18rem' , backgroundColor:'#fff1db', boxShadow:'2px 2px 5px black'}}>
+      <Card style={{ width: '28rem', height:"auto" , backgroundColor:'#fff1db', boxShadow:'2px 2px 5px black'}}>
         <Card.Body>
           {loading ? (
             <div className="text-center">
